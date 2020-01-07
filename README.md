@@ -1,4 +1,6 @@
-# 로또앱 HOTTO
+
+![ic](https://user-images.githubusercontent.com/55124264/71880888-9a205900-3174-11ea-8548-76f181938ef7.png) <P>
+# 로또앱 HOTTO!
 나의 정체가 궁금해? 너의 운을 실험해봐!
 
 국민 복권 LOTTO와 같은 시스템으로 사용자는 숫자를 6가지 뽑을수있습니다. 
@@ -15,5 +17,6 @@
 ![image07](https://user-images.githubusercontent.com/55124264/71879995-b0c5b080-3172-11ea-9b5d-8b2232004e1b.png)
 
 <P>
-  사용툴 : AndroidStudio 사용언어 : ajax,java Gradle빌드 사용
+  사용툴 : AndroidStudio,Photoshop<p> 
+  사용언어 : ajax,java Gradle빌드 사용
   <p>2018년도 어플리케이션 기말고사 작품대회 
