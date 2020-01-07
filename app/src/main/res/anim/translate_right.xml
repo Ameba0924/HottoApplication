@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+	android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+	>
+	<translate 
+		android:fromXDelta="0%p" 
+		android:toXDelta="100%p"
+		android:duration="500"
+		android:repeatCount="0"
+		android:fillAfter="false"
+		/>
+
+
+
+	<!-- translate 애니메이션을 움직이게하는 것
+	 	 fromxDelta 얼만큼 움직일건가  오른쪽 끝이 100% 왼쪽끝이 0%
+	 	 fromtoXdelta 어디까지
+	 	 duration = 애니매이션이 작동하는 시간 1000이 1초
+	 	 repeatCount 이미지 반복 횟수 카운트
+	 	 fillAfter = 애니메이션이 끝나고 나서 의 행동 true = 끝나고 가만히 false = 끝나고 원상태고 돌리겟다. -->
+</set>

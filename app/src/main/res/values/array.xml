@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="계좌">
+    <item>신한은행</item>
+    <item>국민은행</item>
+    <item>기업은행</item>
+    <item>카카오뱅크</item>
+</string-array>
+
+
+
+
+</resources>

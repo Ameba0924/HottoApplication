@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/starbackImg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/starrain"
+            android:scaleType="fitXY"
+            android:visibility="visible"
+            app:srcCompat="?attr/actionBarDivider" />
+
+        <ImageView
+            android:id="@+id/snowImg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:visibility="gone"
+            app:srcCompat="@drawable/actor" />
+
+        <ImageView
+            android:id="@+id/htImg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            app:srcCompat="@drawable/actor" />
+
+        <ImageView
+            android:id="@+id/moneyImg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:visibility="gone"
+            app:srcCompat="?attr/actionBarDivider" />
+
+        <LinearLayout
+            android:id="@+id/bimg1num1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/maps1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_list"
+                android:src="@drawable/myhome" />
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_list"
+                android:src="@drawable/blay1" />
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/backbtn" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bimg1num2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <Spinner
+                android:id="@+id/backsp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:dropDownWidth="match_parent"
+                android:entries="@array/계좌"
+                android:spinnerMode="dropdown" />
+
+            <TextView
+                android:id="@+id/banktxt"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/mlikway"
+                android:gravity="center"
+                android:text="TextView"
+                android:textColor="#EEEF2A6F"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/backbtn" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bimg1num3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_list"
+                android:src="@drawable/newry" />
+
+            <TextView
+                android:id="@+id/banktxt2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/mlikway"
+                android:gravity="center"
+                android:text="010-6870-7091"
+                android:textColor="#EEEF2A6F"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/backbtn" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bimg2num1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/imageView26"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_list"
+                android:src="@drawable/song" />
+
+            <TextView
+                android:id="@+id/banktxt3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/mlikway"
+                android:gravity="center"
+                android:text="송혜교"
+                android:textColor="#EEEF2A6F"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/backbtn" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bimg2num2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/banktxt4"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/mlikway"
+                android:gravity="center"
+                android:text="17살 눈내리던 겨울방학"
+                android:textColor="#EEEF2A6F"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/backbtn" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bimg2num3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/banktxt5"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/mlikway"
+                android:gravity="center"
+                android:text="15살"
+                android:textColor="#EEEF2A6F"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/backbtn" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bimg3num1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/imageView28"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_list"
+                android:src="@drawable/happyhome" />
+
+            <TextView
+                android:id="@+id/banktxt6"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/mlikway"
+                android:gravity="center"
+                android:text="행복한 가정을 꾸리는것"
+                android:textColor="#EEEF2A6F"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn7"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/backbtn" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bimg3num2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/imageView29"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_list"
+                android:src="@drawable/quiz" />
+
+            <TextView
+                android:id="@+id/banktxt7"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/mlikway"
+                android:gravity="center"
+                android:text="이 어플의 이름은 무엇일까요?(영어로)"
+                android:textColor="#EEEF2A6F"
+                android:textSize="30sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/ettxt"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="답을 작성해주세요"
+                    android:inputType="textPersonName" />
+
+                <Button
+                    android:id="@+id/etbtn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="정답확인" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/rstxt"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/mlikway"
+                android:gravity="center"
+                android:text="당신이 알고싶은 답은?"
+                android:textColor="#EEEF2A6F"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn8"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/backbtn" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bimg3num3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <Spinner
+                android:id="@+id/backsp2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:dropDownWidth="match_parent"
+                android:entries="@array/계좌"
+                android:spinnerMode="dropdown" />
+
+            <TextView
+                android:id="@+id/banktxt10"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/mlikway"
+                android:gravity="center"
+                android:textColor="#EEEF2A6F"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn9"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/backbtn" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bimg4num1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/imageView30"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_list"
+                android:src="@drawable/complex" />
+
+            <TextView
+                android:id="@+id/banktxt11"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/mlikway"
+                android:gravity="center"
+                android:text="가슴에있는 점이 내 컴플렉스"
+                android:textColor="#EEEF2A6F"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn10"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/backbtn" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bimg4num2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/banktxt12"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/mlikway"
+                android:gravity="center"
+                android:text="지금까지 5번의 연애를 경험했다."
+                android:textColor="#EEEF2A6F"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn11"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/backbtn" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bimg4num3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/imageView33"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_list"
+                android:src="@drawable/jiyoung" />
+
+            <TextView
+                android:id="@+id/banktxt13"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/mlikway"
+                android:gravity="center"
+                android:text="하지영"
+                android:textColor="#EEEF2A6F"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn12"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/backbtn" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bimg5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/banktxt14"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/mlikway"
+                android:gravity="center"
+                android:text="둘다좋은데 엄마가쫌더좋음\n이유는 맛잇는밥을주심"
+                android:textColor="#EEEF2A6F"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn13"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/backbtn" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bimg6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/imageView34"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_list"
+                android:src="@drawable/lucky" />
+
+            <TextView
+                android:id="@+id/banktxt15"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/mlikway"
+                android:gravity="center"
+                android:text="당신은 당신의운을다썼습니다.\n 늦지않았으니 당장 로또사러가세욥!!"
+                android:textColor="#EEEF2A6F"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn14"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/backbtn" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>

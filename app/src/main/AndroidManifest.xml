@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edup.dongyang.cs.hyeonhopj">
+    <uses-permission android:name="android.permission.VIBRATE"></uses-permission> <!--권한설정!-->
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/hottoicon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/hottoicon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".MainActivity"></activity> <!-- 메인액티비티 스플래시위해 추가 !-->
+        <activity android:name=".SelectActivity"></activity> <!-- 공 선택화면 추가 !-->
+        <activity android:name=".UserActivity"></activity> <!-- 유저공 선택 화면 추가 !-->
+        <activity android:name=".EndActivity"></activity>  <!-- 결과확인화면 추가 -->
+        <activity android:name=".InfoActivity"></activity> <!-- 정보화면 보여주는 화면 추가 !-->
+        <activity android:name=".BonusActivity"></activity> <!-- 보너스 결과화면 보여주기 추가 -->
+        <activity android:name=".CreditActivity"></activity> <!-- 마지막 크레딧화면 추가 -->
+    </application>
+
+</manifest>
