@@ -15,5 +15,5 @@
 ![image07](https://user-images.githubusercontent.com/55124264/71879995-b0c5b080-3172-11ea-9b5d-8b2232004e1b.png)
 
 <P>
-  사용툴 : AndroidStudio 사용언어 : ajax,java
+  사용툴 : AndroidStudio 사용언어 : ajax,java Gradle빌드 사용
   <p>2018년도 어플리케이션 기말고사 작품대회 
