@@ -13,3 +13,7 @@
 ![image05](https://user-images.githubusercontent.com/55124264/71879993-b02d1a00-3172-11ea-9c33-541f32333109.png)
 ![image06](https://user-images.githubusercontent.com/55124264/71879994-b0c5b080-3172-11ea-9bd9-0ba2590dd4fa.png)
 ![image07](https://user-images.githubusercontent.com/55124264/71879995-b0c5b080-3172-11ea-9b5d-8b2232004e1b.png)
+
+<P>
+  사용툴 : AndroidStudio 사용언어 : ajax,java
+  <p>2018년도 어플리케이션 기말고사 작품대회 
